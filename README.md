@@ -25,7 +25,9 @@ Dijkstra algorithm c++
 I have provided two test files testGraphUsingFile.cpp and testGraphDirectly.cpp for 1 & 2 respectively.
 
 Linux users running the make file will create both test CPP files.
+
 	make runTest for 1
+	
 	make runTestFile for 2
 	
 Enjoy!!!
