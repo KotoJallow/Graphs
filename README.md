@@ -1,9 +1,11 @@
 # Graphs
 Shortest path from a given vertex to another within a graph
 
+It supports both one or two way comm
+
 Dijkstra algorithm c++
 
-1. The software can be executed using a file containing the vertices and edges.
+1. The software can be executed using a file containing the vertices and  adjacent vertices(edges) both one and two way allowed.
   The acceptable file standard is:
 	
             "v":{
