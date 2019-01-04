@@ -9,7 +9,7 @@ Dijkstra algorithm c++
   The acceptable file standard is:
 	
             "v":{
-                  "e1","e2"...."en"
+                  "e1"-"e2"-...-"en"
              },
 						 
  v is a vertex and e represent the edges.
