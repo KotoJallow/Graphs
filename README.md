@@ -5,9 +5,11 @@ Dijkstra algorithm c++
 
 1. The software can be executed using a file containing the vertices and edges.
   The acceptable file standard is:
+	
             "v":{
                   "e1","e2"...."en"
              },
+						 
  v is a vertex and e represent the edges.
   Note: Very edge should be defined as a vertex too. An vertex can be without an edge.
 
