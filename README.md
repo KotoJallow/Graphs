@@ -14,7 +14,9 @@ Dijkstra algorithm c++
   Note: Very edge should be defined as a vertex too. An vertex can be without an edge.
 
 2. The software can be executed by directly setting the vertices and edges using the overloaded insert() method.
-  insert(v) insert(v,e1) insert(v,e2) .... insert(v,en);
+
+  	insert(v) insert(v,e1) insert(v,e2) .... insert(v,en);
+  
   Note: Very edge should be defined as a vertex too. An vertex can be without an edge.
 
 I have provided two test files testGraphUsingFile.cpp and testGraphDirectly.cpp for 1 & 2 respectively.
