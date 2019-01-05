@@ -8,8 +8,14 @@ Dijkstra algorithm c++
 1. The software can be executed using a file containing the vertices and  adjacent vertices(edges) both one and two way allowed.
   The acceptable file standard is:
 	
-            "v":{
+            "v1":{
                   "e1"-"e2"-...-"en"
+             },
+	     "v2":{
+                  "e1"-"e2"-...-"en"
+             },
+	     "v":{
+                  
              },
 						 
  v is a vertex and e represent the edges.
