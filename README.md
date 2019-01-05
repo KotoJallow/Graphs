@@ -11,9 +11,12 @@ Dijkstra algorithm c++
             "v1":{
                   "e1"-"e2"-...-"en"
              },  
-	    	"v2":{
-                  
-            	 },
+	    "v2":{
+                "e1"  
+             },
+	    "v3":{
+	     	
+	     },
 						 
  v is a vertex and e represent the edges.
   Note: Very edge should be defined as a vertex too. An vertex can be without an edge.
