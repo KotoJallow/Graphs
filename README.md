@@ -1,7 +1,7 @@
 # Graphs
 Shortest path from a given vertex to another within a graph
 
-It supports both one or two way communication
+It supports any form of communication
 
 Dijkstra algorithm c++
 
