@@ -40,7 +40,6 @@ Linux users running the make file will create both test CPP files.
 	
 Sample file in  Graphs/Graph/graphTestFiles/sample.txt represents :
 	
-	![img_20190105_033423](https://user-images.githubusercontent.com/45719780/50718010-c0607400-109c-11e9-994f-396743d8c079.jpg)
 	
 Enjoy!!!
 
