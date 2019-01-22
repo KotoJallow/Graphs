@@ -43,7 +43,8 @@ int PatternParser::aposData(string s){
 }
 
 void PatternParser::readFile(string fileName){
-	ifstream fin(fileName);
+	//Convert string filename to c string. c_str()
+	ifstream fin(fileName.c_str());
 	if(!fin){
 		cout << "Error in loading file" << endl;
 		exit(0);
