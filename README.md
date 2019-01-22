@@ -38,11 +38,6 @@ Linux users, running the make file will create both test CPP files.
 	
 	make runTest     ----------- for 2 #test directly
 	
-Note: 
-
-	Change the make file to find different point using the file by supplying the start and end points during runTime.
-	Test directly can be changed via testGraphDirectly.cpp
-	
 Sample file in  Graphs/Graph/graphTestFiles/sample.txt represents :
 	![img_20190105_033419](https://user-images.githubusercontent.com/45719780/50718285-42519c80-109f-11e9-9a46-39dacc1c5d1f.jpg)
 
