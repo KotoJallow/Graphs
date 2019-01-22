@@ -34,9 +34,9 @@ I have provided two test files
 
 Linux users, running the make file will create both test CPP files.
 
-	make runTest for 1
+	make runTestFile  ---------- for 1 #test using file
 	
-	make runTestFile for 2
+	make runTest     ----------- for 2 #test directly
 	
 Sample file in  Graphs/Graph/graphTestFiles/sample.txt represents :
 	![img_20190105_033419](https://user-images.githubusercontent.com/45719780/50718285-42519c80-109f-11e9-9a46-39dacc1c5d1f.jpg)
