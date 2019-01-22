@@ -3,10 +3,10 @@ runTest:cRunTest
 	./runnableTest
 runTestFile:cRunTestFile
 	./runnableTestFile graphTestFiles/sample.txt 1 7
-cRunTest: path stack queue list graph pParser test
-	g++ Path.o Stack.o Queue.o List.o Graph.o PatternParser.cpp testGraphDirectly.o -o runnableTest
+cRunTest: path stack queue list graph  test
+	g++ Path.o Stack.o Queue.o List.o Graph.o  testGraphDirectly.o -o runnableTest
 cRunTestFile: path stack queue list graph pParser testFile
-	g++ Path.o Stack.o Queue.o List.o Graph.o PatternParser.cpp testGraphUsingFile.o -o runnableTestFile
+	g++ Path.o Stack.o Queue.o List.o Graph.o PatternParser.o testGraphUsingFile.o -o runnableTestFile
 testFile: testGraphUsingFile.cpp
 	g++ -c testGraphUsingFile.cpp
 test: testGraphDirectly.cpp
