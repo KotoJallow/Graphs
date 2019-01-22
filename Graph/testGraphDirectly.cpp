@@ -31,7 +31,7 @@ Graph sampleGraph(){
 int main(int argc,char **argv){
 	Graph g;
 	g = sampleGraph();
-	g.display();
+	//g.display(); if you want to display the graph : vertes -- edge format uncomment
 	g.BSF(1,19);
 
 }
