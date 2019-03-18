@@ -461,6 +461,7 @@ int arr[8][8] = { {0, 1, 1, 0, 0, 0, 0, 0},
 					g.insert(8,7);
 					
 					g.display();
-				
+	
+					g.BSF(1,8);				
           return 0;				
 }
